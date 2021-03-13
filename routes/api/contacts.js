@@ -1,6 +1,5 @@
 const express = require('express')
 const router = express.Router()
-// const Contacts = require('./../../model/contacts');
 const contactsController = require('./../../controllers/contacts')
 const validate = require('./validation');
 
